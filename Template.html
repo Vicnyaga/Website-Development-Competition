@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strathmore School</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ribbon -->
+  <div class="ribbon-wrapper">
+    <div class="ribbon">Admissions Open</div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Strathmore School</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#admissions">Admissions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#academics">Academics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to Strathmore School</h1>
+      <p class="lead">Empowering students to lead and innovate in a global world.</p>
+      <a href="#admissions" class="btn btn-primary btn-lg">Apply Now</a>
+    </div>
+  </header>
+
+  <!-- About Us Section -->
+  <section id="about" class="container mt-5">
+    <h2>About Us</h2>
+    <p>The School’s chief purpose is to develop the minds and consciences of its students so that they can become self-disciplined and resourceful, and therefore better able to serve society in a useful way. Above all, the School emphasizes academic excellence and moral integrity. The School aims at creating an environment that is conducive to learning; both experienced teachers and well-motivated students strive to create this environment.</p>
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics" class="container mt-5">
+    <h2>Academics</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h3>Curriculums</h3>
+            <p>Strathmore School is a private, independent boys’ day school located in Nairobi, Kenya that follows the 8-4-4 and CBC curriculums.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h3>Extracurricular Activities</h3>
+            <p>The School offers a wide range of sports and artistic activities both during school hours and after-hours.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h3>Parents</h3>
+            <p>There are parenting courses within the school that cover a wide range of topics for the parents.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions" class="container mt-5">
+    <h2>Admissions</h2>
+    <p>We are currently accepting applications for the 2024 academic year. Visit our Admissions Office or apply online today.</p>
+    <a href="#" class="btn btn-secondary btn-lg">Learn More</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mt-5">
+    <h2>Contact Us</h2>
+    <p>Have questions or need more information? Get in touch with our admissions team.</p>
+    <ul class="list-unstyled">
+      <li><strong>Email:</strong> info@strathmoreschool.ac.ke</li>
+      <li><strong>Phone:</strong> +254 123 456 789</li>
+      <li><strong>Address:</strong> 123 Strathmore Road, Nairobi, Kenya</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 py-4 bg-light">
+    <p>&copy; 2024 Strathmore School. All Rights Reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+
+  nav .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+
+  .navbar-nav .nav-item.active .nav-link {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #00376b;
+    text-decoration: none;
+  }
+
+  .jumbotron {
+    background: url('Volleyball.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .card {
+    background-color: #f8f9fa;
+    border: none;
+  }
+
+  .card h3 {
+    color: #0056b3;
+  }
+
+  .btn-primary {
+    background-color: #00376b;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-secondary {
+    background-color: #666666;
+    border: none;
+  }
+
+  .btn-secondary:hover {
+    background-color: #444444;
+  }
+
+  footer {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  /* Ribbon styles */
+  .ribbon-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    pointer-events: none;
+  }
+
+  .ribbon {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 25px;
+    right: -40px;
+    width: 225px;
+    background: #e74c3c;
+    transform: rotate(45deg);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .ribbon::before, .ribbon::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+  }
+
+  .ribbon::before {
+    top: 100%;
+    left: 0;
+  }
+
+  .ribbon::after {
+    left: 100%;
+    top: 0;
+  }
+</style>
+</html>
